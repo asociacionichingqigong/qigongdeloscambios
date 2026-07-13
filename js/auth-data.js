@@ -19,5 +19,6 @@
    ========================================================================== */
 
 const COURSE_STUDENTS = [
-  { nombre: "Alumno/a", user: "eltao", pass: "wuwey2026@" }
+  { nombre: "Alumno/a", user: "eltao", pass: "wuwey2026@" },
+   { nombre: "Marta Carbonell, user: "MartaCarbonell", pass: "Loscambios1234"}
 ];
