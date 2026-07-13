@@ -27,7 +27,7 @@ const COURSE_MODULES = [
     },
     pdf: { titulo: "Manual Módulo 1 · El Origen del Cambio", file: "docs/modulo1/teoria/manual-modulo1.pdf" },
     videos: [
-      { titulo: "Clase 1 · Apertura corporal y Wu Ji", file: "docs/modulo1/practica-videos/clase1.mp4" },
+      { titulo: "Clase 1 · Las tres regulaciones", file: "https://www.youtube.com/watch?v=amUOUm4Vxkk" },
       { titulo: "Clase 2 · Forma Cielo Posterior", file: "docs/modulo1/practica-videos/clase2.mp4" }
     ],
     streaming: { titulo: "Próxima sesión en directo · 5 y 6 de septiembre", url: "" },
