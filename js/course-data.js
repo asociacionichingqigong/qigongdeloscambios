@@ -27,8 +27,8 @@ const COURSE_MODULES = [
     },
     pdf: { titulo: "Manual Módulo 1 · El Origen del Cambio", file: "docs/modulo1/teoria/manual-modulo1.pdf" },
     videos: [
-      { titulo: "Clase 1 · Las tres regulaciones", file: "https://www.youtube.com/watch?v=amUOUm4Vxkk" },
-      { titulo: "Clase 2 · Forma Cielo Posterior", file: "docs/modulo1/practica-videos/clase2.mp4" }
+      { titulo: "Las tres regulaciones", file: "https://www.youtube.com/watch?v=amUOUm4Vxkk" },
+      { titulo: "Forma Cielo Posterior", file: "https://youtu.be/MtWsPIs8p8U" }
     ],
     streaming: { titulo: "Próxima sesión en directo · 5 y 6 de septiembre", url: "" },
     test: { titulo: "Test de repaso Módulo 1", file: "docs/modulo1/test/test-modulo1.pdf" }
@@ -49,8 +49,8 @@ const COURSE_MODULES = [
     },
     pdf: { titulo: "Manual Módulo 2 · La Danza de las Fuerzas", file: "docs/modulo2/teoria/manual-modulo2.pdf" },
     videos: [
-      { titulo: "Clase 1 · Apertura Cielo Anterior", file: "docs/modulo2/practica-videos/clase1.mp4" },
-      { titulo: "Clase 2 · Movimiento espontáneo", file: "docs/modulo2/practica-videos/clase2.mp4" }
+      { titulo: "Apertura Cielo Anterior", file: "docs/modulo2/practica-videos/clase1.mp4" },
+      { titulo: "Movimiento espontáneo", file: "docs/modulo2/practica-videos/clase2.mp4" }
     ],
     streaming: { titulo: "Próxima sesión en directo · 3 y 4 de octubre", url: "" },
     test: { titulo: "Test de repaso Módulo 2", file: "docs/modulo2/test/test-modulo2.pdf" }
