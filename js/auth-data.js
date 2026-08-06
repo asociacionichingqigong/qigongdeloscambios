@@ -8,4 +8,5 @@ const COURSE_STUDENTS = [
    { nombre: "Helena Aguilar", user: "HelenaAguilar", pass: "Loscambios1234"},
    { nombre: "Paola Mariel", user: "PaolaMariel", pass: "Loscambios1234"}, 
    { nombre: "Lucie Melanie", user: "LucieMelanie", pass: "Loscambios1234"},
+  
 ];
