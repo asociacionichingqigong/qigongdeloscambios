@@ -3,7 +3,8 @@
    Contenido del curso "Qi Gong de los Cambios". Edita este archivo para
    añadir tus PDFs, vídeos y enlaces de streaming reales.
 
-   - pdf.file      -> ruta al PDF dentro de docs/moduloX/teoria/
+   - pdfs[].file   -> ruta a cada PDF dentro de docs/moduloX/teoria/
+                      (puedes añadir tantos como quieras: teoría, práctica, apuntes...)
    - videos[].file -> ruta al video dentro de docs/moduloX/practica-videos/
                       (o una URL de YouTube/Vimeo no listado)
    - streaming.url -> enlace a la sesión en directo (Zoom, Meet, YouTube Live...)
@@ -25,7 +26,10 @@ const COURSE_MODULES = [
       "Práctica": ["Apertura corporal con observación consciente", "Introducción a Wu Ji", "Forma Cielo Posterior", "Meditación de la montaña Ken 52"],
       "Oráculo": ["Qué es el I Ching", "Historia y recorrido", "Los trigramas", "Formación del hexagrama con el método de las monedas"]
     },
-    pdf: { titulo: "Manual Módulo 1 · El Origen del Cambio", file: "docs/modulo1/teoria/manual-modulo1.pdf" },
+    pdfs: [
+      { titulo: "Teoría · Manual Módulo 1 (próximamente)", file: "docs/modulo1/teoria/manual-modulo1.pdf" },
+      { titulo: "Práctica 1 · Formas de los 8 Trigramas (Hou Tian)", file: "docs/modulo1/teoria/practica1.pdf" }
+    ],
     videos: [
       { titulo: "Las tres regulaciones", file: "https://www.youtube.com/watch?v=amUOUm4Vxkk" },
       { titulo: "Forma Cielo Posterior", file: "https://youtu.be/MtWsPIs8p8U" }
@@ -47,7 +51,9 @@ const COURSE_MODULES = [
       "Práctica": ["Apertura Cielo Anterior y cierre de Fuxi y Nuwa · canal Chong Mai", "Profundización en Cielo Posterior", "Meditación de la Contemplación · hexagrama 20", "Iniciación al movimiento espontáneo"],
       "Oráculo": ["Formación de hexagramas", "Orden de los hexagramas Rey Wen", "Comprensión según Jing Fang del recorrido iniciático", "Iniciación a la interpretación y traducción de Richard Wilhelm"]
     },
-    pdf: { titulo: "Manual Módulo 2 · La Danza de las Fuerzas", file: "docs/modulo2/teoria/manual-modulo2.pdf" },
+    pdfs: [
+      { titulo: "Manual Módulo 2 · La Danza de las Fuerzas", file: "docs/modulo2/teoria/manual-modulo2.pdf" }
+    ],
     videos: [
       { titulo: "Apertura Cielo Anterior", file: "docs/modulo2/practica-videos/clase1.mp4" },
       { titulo: "Movimiento espontáneo", file: "docs/modulo2/practica-videos/clase2.mp4" }
@@ -69,7 +75,9 @@ const COURSE_MODULES = [
       "Práctica": ["Rotación y traslación", "Luz y sombra · los hexagramas mensajeros", "Apertura espontánea a través de los círculos y espirales"],
       "Oráculo": ["Significado de las líneas", "Orden de los hexagramas Rey Wen", "Comprensión según Jing Fang del recorrido iniciático", "Métodos para obtener el hexagrama de la consulta"]
     },
-    pdf: { titulo: "Manual Módulo 3 · La Rueda de los Ciclos", file: "docs/modulo3/teoria/manual-modulo3.pdf" },
+    pdfs: [
+      { titulo: "Manual Módulo 3 · La Rueda de los Ciclos", file: "docs/modulo3/teoria/manual-modulo3.pdf" }
+    ],
     videos: [
       { titulo: "Clase 1 · Rotación y traslación", file: "docs/modulo3/practica-videos/clase1.mp4" },
       { titulo: "Clase 2 · Círculos y espirales", file: "docs/modulo3/practica-videos/clase2.mp4" }
@@ -91,7 +99,9 @@ const COURSE_MODULES = [
       "Práctica": ["Cielo Posterior y Cielo Anterior", "Luz y sombra", "Rotación y traslación", "Wu Ji profundo", "Movimiento espontáneo"],
       "Oráculo": ["El oráculo en la vida cotidiana", "La máquina de la sincronicidad al servicio de la conciencia", "Método de varillas"]
     },
-    pdf: { titulo: "Manual Módulo 4 · El Retorno del Sabio", file: "docs/modulo4/teoria/manual-modulo4.pdf" },
+    pdfs: [
+      { titulo: "Manual Módulo 4 · El Retorno del Sabio", file: "docs/modulo4/teoria/manual-modulo4.pdf" }
+    ],
     videos: [
       { titulo: "Clase 1 · Wu Ji profundo", file: "docs/modulo4/practica-videos/clase1.mp4" },
       { titulo: "Clase 2 · Método de varillas", file: "docs/modulo4/practica-videos/clase2.mp4" }
