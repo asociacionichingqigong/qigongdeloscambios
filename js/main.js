@@ -130,6 +130,11 @@ function renderModulePanel(){
     <li><a href="${v.file}" target="_blank" rel="noopener"><span class="tag video">Vídeo</span> ${v.titulo}</a></li>
   `).join("");
 
+  // Soporta uno o varios PDFs por módulo (campo "pdfs", un array)
+  const pdfsHTML = (m.pdfs || []).map(p => `
+    <li><a href="${p.file}" target="_blank" rel="noopener"><span class="tag pdf">PDF</span> ${p.titulo}</a></li>
+  `).join("");
+
   const streamHTML = m.streaming.url
     ? `<li><a href="${m.streaming.url}" target="_blank" rel="noopener"><span class="tag live">Directo</span> ${m.streaming.titulo}</a></li>`
     : `<li><span class="stream-link"><span class="tag live">Directo</span> ${m.streaming.titulo}</span></li>
@@ -145,9 +150,7 @@ function renderModulePanel(){
 
         <div class="content-card">
           <h4>Material y PDF</h4>
-          <ul>
-            <li><a href="${m.pdf.file}" target="_blank" rel="noopener"><span class="tag pdf">PDF</span> ${m.pdf.titulo}</a></li>
-          </ul>
+          <ul>${pdfsHTML}</ul>
         </div>
 
         <div class="content-card">
