@@ -101,7 +101,7 @@ const COURSE_MODULES = [
       "Oráculo": ["El oráculo en la vida cotidiana", "La máquina de la sincronicidad al servicio de la conciencia", "Método de varillas"]
     },
     pdfs: [
-      { titulo: "Manual  Módulo 4 · El Retorno del Sabio", file: "docs/modulo4/teoria/manual-modulo4.pdf" }
+      { titulo: "Manual Módulo 4 · El Retorno del Sabio", file: "docs/modulo4/teoria/manual-modulo4.pdf" }
     ],
     videos: [
       { titulo: "Clase 1 · Wu Ji profundo", file: "docs/modulo4/practica-videos/clase1.mp4" },
