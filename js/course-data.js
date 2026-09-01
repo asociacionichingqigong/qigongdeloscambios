@@ -29,7 +29,6 @@ const COURSE_MODULES = [
     pdfs: [
       { titulo: "Teoría · Manual Módulo 1 (próximamente)", file: "docs/modulo1/teoria/manual-modulo1.pdf" },
       { titulo: "Práctica 1 · Formas de los 8 Trigramas (Hou Tian)", file: "docs/modulo1/teoria/practica1.pdf" }
-      { titulo: "Práctica Meditación Taoista · Los tres tesoros", file: "docs/modulo1/teoria/meditaciontaoista.pdf" }
     ],
     videos: [
       { titulo: "Las tres regulaciones", file: "https://www.youtube.com/watch?v=amUOUm4Vxkk" },
